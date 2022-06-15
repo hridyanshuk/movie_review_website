@@ -1,0 +1,32 @@
+.sidebar_left {
+    flex: 0.2;
+    background-color: #e5e5e53e;
+    height: 100vh;
+}
+
+#sidebar_left_logo {
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: white; */
+    /* line-height: 70px; */
+    /* justify-self: center; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background: white; */
+    /* padding: 10px 30px; */
+}
+
+#sidebar_left_logo div {
+    background-color: aliceblue;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    /* line-height: 100%; */
+    /* height: 50px; */
+}

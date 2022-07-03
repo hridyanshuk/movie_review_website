@@ -1,4 +1,5 @@
 import './auths.css'
+import { Link } from 'react-router-dom'
 export default () => {
     return (
         <div className="auth">
@@ -7,6 +8,7 @@ export default () => {
                 <input type="text" placeholder="username" />
                 <input type="text" placeholder="password" />
                 <button className="auth_button">Sign in</button>
+                <Link to='/signup' className="auth_button">Not already a user?</Link>
             </div>
         </div>
     )

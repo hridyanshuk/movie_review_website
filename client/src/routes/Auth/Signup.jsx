@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './auths.css'
 export default () => {
     return (
@@ -8,6 +9,7 @@ export default () => {
                 <input type="text" placeholder="password" />
                 <input type="text" placeholder="confirm password" />
                 <button className="auth_button">Sign up</button>
+                <Link to='/signin' className="auth_button">Already a user?</Link>
             </div>
         </div>
     )

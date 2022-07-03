@@ -36,6 +36,9 @@
     outline: none;
     background:  rgb(85, 85, 85);
     color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
 }
 
 .auth_button:hover {
